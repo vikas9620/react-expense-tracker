@@ -11,7 +11,20 @@
     margin-right: 300px;
 
   }
-  
+  .button1{background-color: silver;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(247, 44, 220, 0.1);
+    margin-bottom: 20px;
+    padding: 10px;
+
+  }
+  .button2{background-color: silver;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(247, 44, 220, 0.1);
+    margin-bottom: 20px;
+    padding: 10px;
+
+  }
   .expense-item h1 {
     color: #f9f8fa;
     font-size: 32px;
@@ -31,7 +44,7 @@
   .expense-amount{background-color: blueviolet;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(247, 44, 220, 0.1);
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     padding: 10px;
   }
   
@@ -43,7 +56,9 @@
     margin-right: 10px;
   }
   
-  .expense-item2 {
+  .expense-item2 {display: flex;
+    justify-content: space-around;
+    flex-direction: row;
     flex-basis: 30%;
     color: white;
     font-size: 24px;
