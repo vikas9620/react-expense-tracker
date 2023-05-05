@@ -1,4 +1,4 @@
-
+import ExpenseForm from "./components/ExpenseFrom/ExpenseForm";
 import ExpenseItem from "./components/Expenses/ExpenseItem";
 import React from 'react';
 const App = ()=> {
@@ -22,6 +22,7 @@ Date: new Date(2023, 8, 22),
 LocationOfExpenditure: "manali"}]
   return (
     <div className="App">
+    <ExpenseForm/>
     <h1>Expense Items</h1>
       <header className="App-header">
       {expenses.map((expense) => (

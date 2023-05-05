@@ -1,0 +1,45 @@
+.expense-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 20px;
+    
+    margin-bottom: 20px;
+    padding: 20px;
+      text-align: center;
+      background-color: rgb(40, 41, 41);
+      margin-left: 300px;
+      margin-right: 300px;
+      align-items: center;
+    }
+    
+    .form{
+   text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-top: 25px;
+        background-color: grey;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        width: 700px;
+        height: auto;
+        margin-bottom: 20px;
+        padding: 20px;
+        font-weight: 700;
+    }
+    .text{
+        color: aliceblue;
+    }
+    .btn{
+        background-color: rgb(158, 247, 177);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(247, 44, 220, 0.1);
+    margin-bottom: 20px;
+    padding: 10px;
+
+    }
