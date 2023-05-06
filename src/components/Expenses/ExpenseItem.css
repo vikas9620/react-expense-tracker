@@ -32,13 +32,15 @@
   }
   
   .expense-description {
-    flex-basis: 80%;
+    
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding-top: 25px;
+    justify-content: space-between;
+    
+    padding: 25px;
     background-color: grey;
     border-radius: 10px;
+    width: 30rem;
 
   }
   .expense-amount{background-color: blueviolet;
@@ -49,7 +51,11 @@
   }
   
   .expense-date {
-    flex-basis: 20%;
+    background-color: rgb(80, 78, 82);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(247, 44, 220, 0.1);
+    margin-bottom: 20px;
+    padding: 10px;
     color: white;
     font-size: 22px;
     margin-top: 5px;
@@ -59,7 +65,11 @@
   .expense-item2 {display: flex;
     justify-content: space-around;
     flex-direction: row;
-    flex-basis: 30%;
+    background-color: rgb(114, 110, 117);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(247, 44, 220, 0.1);
+    margin-bottom: 20px;
+    padding: 10px;
     color: white;
     font-size: 24px;
     font-weight: 1000;
@@ -74,7 +84,11 @@
   }
   
   .location-of-expenditure {
-    flex-basis: 30%;
+    background-color: rgb(104, 102, 105);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(247, 44, 220, 0.1);
+    margin-bottom: 20px;
+    padding: 10px;
     color: white;
     font-size: 24px;
     font-weight: 1000;
