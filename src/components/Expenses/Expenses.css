@@ -5,4 +5,29 @@
     margin: 2rem auto;
   width: 90rem;
   }
-   
+  .expense-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    
+    
+    margin: 1rem;
+  
+      text-align: center;
+      background-color: rgb(40, 41, 41);
+      margin-left: 300px;
+      margin-right: 300px;
+      align-items: center;
+    }
+    .btn{
+      background-color: rgb(158, 247, 177);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(247, 44, 220, 0.1);
+  margin-bottom: 20px;
+  margin-top: 1rem;
+  padding: 10px;
+
+  }

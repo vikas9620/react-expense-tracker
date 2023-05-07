@@ -43,3 +43,4 @@
     padding: 10px;
 
     }
+    .buttom-group{ display: flex; flex-direction: row; justify-content: space-between;}

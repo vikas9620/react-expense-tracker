@@ -29,6 +29,6 @@ const ExpenseList = (props) => {
       />
     ));
   }
-  return <ul className="Expense-List">{expenseContent}</ul>;
+  return <div className="Expense-List">{expenseContent}</div>;
 };
 export default ExpenseList;
